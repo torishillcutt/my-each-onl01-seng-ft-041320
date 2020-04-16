@@ -2,8 +2,7 @@ def my_each(collection)
   i = 0
   new_arr = []
   while i >= collection.length
-  new_arr << collection.collect do |i|
-    i
+  new_arr << collection.map { |element| element }
     i += 1
   end
   new_arr
