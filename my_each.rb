@@ -1,8 +1,10 @@
 def my_each(collection)
   i = 0
   new_arr = []
-  new_arr << collection.each do |i|
+  while i >= collection.length
+  new_arr << collection.collect do |i|
     puts i
+    i += 1
   end
   new_arr
 end
