@@ -1,3 +1,8 @@
-def my_each(collection) # put argument(s) here
-  # code here
+def my_each(collection)
+  i = 0
+  new_arr = []
+  new_arr << collection.each do |i|
+    puts i
+  end
+  new_arr
 end
