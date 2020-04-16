@@ -3,7 +3,7 @@ def my_each(collection)
   new_arr = []
   while i >= collection.length
   new_arr << collection.collect do |i|
-    puts i
+    i
     i += 1
   end
   new_arr
